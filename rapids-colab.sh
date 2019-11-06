@@ -5,8 +5,8 @@ set -eu
 RAPIDS_VERSION="${1:-0.10}"
 XGBOOST_VERSION="${2:-1.0.0_SNAPSHOT}"
 
-wget -nc https://github.com/rapidsai/notebooks-extended/raw/master/utils/env-check.py
-echo "Checking for GPU type:"
+#wget -nc https://github.com/rapidsai/notebooks-extended/raw/master/utils/env-check.py
+#echo "Checking for GPU type:"
 #python env-check.py
 
 if [ ! -f Miniconda3-4.5.4-Linux-x86_64.sh ]; then
